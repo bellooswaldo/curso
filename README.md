@@ -1,5 +1,5 @@
 # Curso
 
-Este archivo intenta explicar la improvisación en repositorio para facilitar material didactico en diferentes tecnologías las cuales se bifurcaran en los temas a desarrollar como HTML, CSS, JavaScript, Python, Flutter, etc.
+Este archivo intenta explicar los fundamentos básicos de la programación Web y POO para facilitar material didactico en diferentes tecnologías las cuales se bifurcaran en los temas como HTML, CSS, JavaScript, Python, C#, etc.
 
 De momento mantendremos este esquema mientras generamos contenido. Gracias por la lectura y espero verte luego.👍
