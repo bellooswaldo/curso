@@ -1,3 +1,9 @@
+//Suma
+Funcion resultado <- Sumar(a, b)
+	Definir resultado Como Real
+	resultado <- a + b
+FinFuncion
+
 Algoritmo CalculadoraColaborativa
 	
 	Definir opcion Como Entero
@@ -29,19 +35,20 @@ Algoritmo CalculadoraColaborativa
 		
 		Segun opcion Hacer
 			1:
-				// --- ESTUDIANTE A: IMPLEMENTAR SUMA AQUÃ ---
-				Escribir "Realizando suma..."
+				// --- ESTUDIANTE A: IMPLEMENTAR SUMA AQUÍ ---
+				resSuma <- Sumar(n1, n2)
+				Escribir "El resultado de la Suma es: ", resSuma
 				
 			2:
-				// --- ESTUDIANTE B: IMPLEMENTAR RESTA AQUÃ ---
+				// --- ESTUDIANTE B: IMPLEMENTAR RESTA AQUÍ ---
 				Escribir "Realizando resta..."
 				
 			3:
-				// --- ESTUDIANTE C: IMPLEMENTAR MULTIPLICACION AQUÃ ---
+				// --- ESTUDIANTE C: IMPLEMENTAR MULTIPLICACION AQUÍ ---
 				Escribir "Realizando multiplicacion..."
 				
 			4:
-				// --- ESTUDIANTE D: IMPLEMENTAR DIVISION AQUÃ ---
+				// --- ESTUDIANTE D: IMPLEMENTAR DIVISION AQUÍ ---
 				// (No olvidar validar la division por cero)
 				Escribir "Realizando division..."
 				
