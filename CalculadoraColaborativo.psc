@@ -29,19 +29,20 @@ Algoritmo CalculadoraColaborativa
 		
 		Segun opcion Hacer
 			1:
-				// --- ESTUDIANTE A: IMPLEMENTAR SUMA AQU√ç ---
+				// --- ESTUDIANTE A: IMPLEMENTAR SUMA AQUÕ ---
 				Escribir "Realizando suma..."
 				
 			2:
-				// --- ESTUDIANTE B: IMPLEMENTAR RESTA AQU√ç ---
+				// --- ESTUDIANTE B: IMPLEMENTAR RESTA AQUÕ ---
 				Escribir "Realizando resta..."
 				
 			3:
-				// --- ESTUDIANTE C: IMPLEMENTAR MULTIPLICACION AQU√ç ---
-				Escribir "Realizando multiplicacion..."
+				// --- ESTUDIANTE C: IMPLEMENTAR MULTIPLICACION AQUÕ ---
+				resultado <- n1 * n2 
+				Escribir "El resultado de multiplicar ", n1, " por ", n2, " es: ", resultado
 				
 			4:
-				// --- ESTUDIANTE D: IMPLEMENTAR DIVISION AQU√ç ---
+				// --- ESTUDIANTE D: IMPLEMENTAR DIVISION AQUÕ ---
 				// (No olvidar validar la division por cero)
 				Escribir "Realizando division..."
 				
