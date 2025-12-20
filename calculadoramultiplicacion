@@ -1,7 +1,7 @@
-//Suma
-Funcion resultado <- Sumar(a, b)
+/Suma
+Funcion resultado <- Multiplicar(a, b)
 	Definir resultado Como Real
-	resultado <- a + b
+	resultado <- a * b
 FinFuncion
 
 Algoritmo CalculadoraColaborativa
@@ -36,7 +36,7 @@ Algoritmo CalculadoraColaborativa
 		Segun opcion Hacer
 			1:
 				// --- ESTUDIANTE A: IMPLEMENTAR SUMA AQUÍ ---
-				resSuma <- Sumar(n1, n2)
+				
 				Escribir "El resultado de la Suma es: ", resSuma
 				
 			2:
@@ -45,8 +45,8 @@ Algoritmo CalculadoraColaborativa
 				
 			3:
 				// --- ESTUDIANTE C: IMPLEMENTAR MULTIPLICACION AQUÍ ---
-				resultado <- n1 * n2 
-				Escribir "El resultado de multiplicar ", n1, " por ", n2, " es: ", resultado
+				Multiplicacion <- Multiplicar(n1, n2)
+				Escribir " el resultado es :" , Multiplicacion
 				
 			4:
 				// --- ESTUDIANTE D: IMPLEMENTAR DIVISION AQUÍ ---
