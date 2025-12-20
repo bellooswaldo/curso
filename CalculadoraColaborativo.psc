@@ -35,20 +35,21 @@ Algoritmo CalculadoraColaborativa
 		
 		Segun opcion Hacer
 			1:
-				// --- ESTUDIANTE A: IMPLEMENTAR SUMA AQUÕ ---
+				// --- ESTUDIANTE A: IMPLEMENTAR SUMA AQU√ç ---
 				resSuma <- Sumar(n1, n2)
 				Escribir "El resultado de la Suma es: ", resSuma
 				
 			2:
-				// --- ESTUDIANTE B: IMPLEMENTAR RESTA AQUÕ ---
+				// --- ESTUDIANTE B: IMPLEMENTAR RESTA AQU√ç ---
 				Escribir "Realizando resta..."
 				
 			3:
-				// --- ESTUDIANTE C: IMPLEMENTAR MULTIPLICACION AQUÕ ---
-				Escribir "Realizando multiplicacion..."
+				// --- ESTUDIANTE C: IMPLEMENTAR MULTIPLICACION AQU√ç ---
+				resultado <- n1 * n2 
+				Escribir "El resultado de multiplicar ", n1, " por ", n2, " es: ", resultado
 				
 			4:
-				// --- ESTUDIANTE D: IMPLEMENTAR DIVISION AQUÕ ---
+				// --- ESTUDIANTE D: IMPLEMENTAR DIVISION AQU√ç ---
 				// (No olvidar validar la division por cero)
 				Escribir "Realizando division..."
 				
