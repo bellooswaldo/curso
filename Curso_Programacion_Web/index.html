@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STB Academy | Programación Web</title>
+    <link rel="stylesheet" href="./Codigo/Frontend/01-HTML/css/master-ref.css">
+    <style>
+        body { background-color: #1a202c; color: #f7fafc; }
+        .portal-header {
+            text-align: center;
+            padding: 5rem 1rem;
+            background: radial-gradient(circle at center, #2d3748 0%, #1a202c 100%);
+            color: white;
+            border-bottom: 4px solid var(--accent-color);
+            margin-bottom: 3rem;
+        }
+        .portal-logo {
+            width: 350px;
+            max-width: 90%;
+            margin-bottom: 1.5rem;
+            filter: drop-shadow(0 0 20px rgba(255, 255, 255, 0.15)) drop-shadow(0 0 15px rgba(29, 252, 27, 0.3));
+            background: rgba(255, 255, 255, 0.03);
+            padding: 1.5rem;
+            border-radius: 20px;
+        }
+        h1 {
+            font-size: 2.5rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: #ffffff;
+        }
+        p em {
+            color: var(--accent-color);
+        }
+        .course-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+        .course-card {
+            background: #2d3748;
+            border-radius: 15px;
+            overflow: hidden;
+            text-decoration: none;
+            color: inherit;
+            transition: all 0.3s ease;
+            border: 1px solid #4a5568;
+            display: flex;
+            flex-direction: column;
+        }
+        .course-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4), 0 0 20px rgba(29, 252, 27, 0.2);
+            border-color: var(--accent-color);
+        }
+        .course-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            margin: 0; /* Override master-ref */
+            border-radius: 0;
+            border: none;
+        }
+        .course-content {
+            padding: 1.5rem;
+            text-align: center; /* Centrar botón y texto */
+        }
+        .course-tag {
+            display: inline-block;
+            padding: 0.4rem 1rem;
+            border-radius: 50px;
+            background: var(--accent-color);
+            color: #000;
+            font-weight: bold;
+            font-size: 0.85rem;
+            margin-bottom: 1rem;
+        }
+        .course-content h3 {
+            margin-top: 0;
+            color: #fff;
+            font-size: 1.5rem;
+        }
+        .course-content p {
+            color: #a0aec0; /* Cambiar color por defecto (azul) a un gris claro */
+            font-size: 1rem;
+            line-height: 1.5;
+        }
+
+    </style>
+</head>
+<body>
+    <header class="portal-header">
+        <img src="./Codigo/Frontend/assets/LOGO-STB-ACADEMY--NEGRO---VERDE.svg" alt="STB Academy" class="portal-logo">
+        <h1>Master en Programación Web</h1>
+        <p>Tu camino desde los fundamentos hasta el Fullstack</p>
+    </header>
+
+    <main>
+        <div class="course-grid">
+            <!-- HTML Card -->
+            <a href="./Codigo/Frontend/01-HTML/index.html" class="course-card">
+                <img src="./Codigo/Frontend/assets/HTML.jpeg" alt="Curso HTML">
+                <div class="course-content">
+                    <span class="course-tag">Módulo 01</span>
+                    <h3>HTML5 Fundamentos</h3>
+                    <p>Estructura semántica, formularios, SEO básico y multimedia nativa.</p>
+                </div>
+            </a>
+
+            <!-- CSS Card -->
+            <a href="./Codigo/Frontend/02-CSS/index.html" class="course-card">
+                <img src="./Codigo/Frontend/assets/CSS.jpeg" alt="Curso CSS">
+                <div class="course-content">
+                    <span class="course-tag">Módulo 02</span>
+                    <h3>CSS3 Estilo & Diseño</h3>
+                    <p>Layouts con Flexbox y Grid, animaciones y diseño responsivo.</p>
+                </div>
+            </a>
+
+            <!-- JS Card -->
+            <a href="./Codigo/Frontend/03-JavaScript/index.html" class="course-card">
+                <img src="./Codigo/Frontend/assets/javascript.jpeg" alt="Curso JavaScript">
+                <div class="course-content">
+                    <span class="course-tag">Módulo 03</span>
+                    <h3>JavaScript Moderno</h3>
+                    <p>Lógica de programación, manipulación del DOM y consumo de APIs.</p>
+                </div>
+            </a>
+        </div>
+    </main>
+
+    <footer style="text-align: center; margin-top: 5rem; padding: 2rem; color: #64748b;">
+        <p>&copy; 2024 STB Academy | Desarrollando el Futuro Tecnológico</p>
+    </footer>
+</body>
+</html>
